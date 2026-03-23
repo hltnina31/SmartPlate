@@ -52,8 +52,8 @@ En fullstack webapplikasjon bygget med PERN stack som gir brukeren tilgang til e
 
 ## 📁 Prosjektstruktur
 
+```text
 project-root/
-│
 ├── backend/
 │   ├── config/
 │   ├── controllers/
@@ -61,9 +61,7 @@ project-root/
 │   ├── models/
 │   ├── routes/
 │   └── utils/
-│
-├── my-app/                 # Frontend (React + Vite)
-│   ├── node_modules/
+├── my-app/
 │   ├── public/
 │   ├── src/
 │   │   ├── assets/
@@ -71,7 +69,6 @@ project-root/
 │   │   ├── App.css
 │   │   ├── main.tsx
 │   │   └── index.css
-│   │
 │   ├── eslint.config.js
 │   ├── index.html
 │   ├── package.json
@@ -81,13 +78,12 @@ project-root/
 │   ├── tsconfig.app.json
 │   ├── tsconfig.node.json
 │   └── vite.config.ts
-│
 ├── .env
 ├── .env.example
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installasjon
@@ -95,8 +91,8 @@ project-root/
 ### 1. Klon repoet
 
 ```bash
-git clone https://github.com/ditt-brukernavn/ditt-repo.git
-cd ditt-repo
+git clone https://github.com/hltnina31/SmartPlate.git
+cd SmartPlate
 ```
 
 ### 2. Installer avhengigheter
@@ -150,7 +146,7 @@ Dette prosjektet bruker **Neon (serverless PostgreSQL)**.
 Opprett en `.env`-fil i backend:
 
 ```env
-PORT=5000
+PORT=
 DATABASE_URL=din_neon_connection_string
 GEMINI_API_KEY=din_api_nøkkel
 JWT_SECRET=din_hemmelige_nøkkel
@@ -252,8 +248,7 @@ A fullstack web application built with the PERN stack that provides users with a
 
 ---
 
-## 📁 Project Structure
-
+```text
 project-root/
 │
 ├── backend/
@@ -289,7 +284,7 @@ project-root/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation
@@ -297,8 +292,8 @@ project-root/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/hltnina31/SmartPlate.git
+cd SmartPlate
 ```
 
 ### 2. Install dependencies
@@ -352,7 +347,7 @@ This project uses **Neon (serverless PostgreSQL)**.
 Create a `.env` file in the backend:
 
 ```env
-PORT=5000
+PORT=
 DATABASE_URL=your_neon_connection_string
 GEMINI_API_KEY=your_api_key
 JWT_SECRET=your_secret_key
